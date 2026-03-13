@@ -1,6 +1,26 @@
 #!/usr/bin/env python3
 """
 RustChain Prometheus Exporter
+==============================
+Exposes RustChain node metrics for Grafana monitoring.
+
+Author: tomisnotcat
+Created: 2026-03-13
+For: RustChain Bounty #1609
+
+This exporter queries the RustChain API and exposes metrics
+in Prometheus format for visualization in Grafana dashboards.
+
+Key Features:
+- Health monitoring (up/down status)
+- Epoch and slot tracking
+- Miner count and enrollment
+- Supply and reward tracking
+"""
+
+#!/usr/bin/env python3
+"""
+RustChain Prometheus Exporter
 Exposes RustChain node metrics for Grafana monitoring.
 
 Usage:
